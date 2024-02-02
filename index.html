@@ -3,9 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>First Document on GitHub</title>
+    <link rel="stylesheet" href="js/style.css" />
+    <title>Learn CSS</title>
   </head>
   <body>
-    <h1>Wajid Sarfraz</h1>
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="userName">User Name</label></td>
+          <td><input type="text" id="userName" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td><input type="password" name="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td><label for="joiningDate">Joining Date</label></td>
+          <td><input type="date" name="joiningDate" id="joiningDate" /></td>
+        </tr>
+        <tr>
+          <td><label for="selectedColor">Select Color</label></td>
+          <td>
+            <input type="color" name="selectedColor" id="selectedColor" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="selectedFile">Select File</label></td>
+          <td><input type="file" name="selectedFile" id="selectedFile" /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td>
+            <input type="radio" name="gender" id="male" /> Male <br />
+            <input type="radio" name="gender" id="female" /> Female <br />
+            <input type="radio" name="gender" id="other" /> Other <br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="games">Games</label></td>
+          <td>
+            <input type="checkbox" name="games" id="cricked" /> Cricket <br />
+            <input type="checkbox" name="games" id="football" /> Football <br />
+            <input type="checkbox" name="games" id="karatey" /> Karatey <br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="country">Select Country</label></td>
+          <td>
+            <select name="country" id="country">
+              <option value="pakistan">Pakistan</option>
+              <option value="saudi arabia">Saudi Arabia</option>
+              <option value="united states">USA</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script src="script.js"></script>
   </body>
 </html>
